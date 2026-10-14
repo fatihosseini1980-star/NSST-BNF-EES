@@ -13,4 +13,4 @@ Set OPENBLAS_NUM_THREADS=1 and OMP_NUM_THREADS=1 before execution to control par
 
 The pm25 column is the PM2.5 AQI sub-index, expressed in dimensionless index points. The monthly input is used directly; no concentration conversion is performed. The 2024 evaluation is a retrospective temporal holdout.
 
-Identifiability, calibration and variational approximation have the limitations stated in the manuscript. The included parameter-recovery results are not evidence of unique component identification.
+
