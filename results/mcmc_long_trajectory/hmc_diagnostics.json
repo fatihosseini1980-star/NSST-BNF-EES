@@ -1,0 +1,70 @@
+{
+  "chains": [
+    {
+      "acceptance": 0.9976666666666667,
+      "step_size": 0.01676653684030279,
+      "energy_errors_above_100": 0,
+      "warmup": 2500,
+      "draws": 3000,
+      "warmup_acceptance_target": 0.99,
+      "leapfrog_steps": 50
+    },
+    {
+      "acceptance": 0.9963333333333333,
+      "step_size": 0.01667042867755944,
+      "energy_errors_above_100": 0,
+      "warmup": 2500,
+      "draws": 3000,
+      "warmup_acceptance_target": 0.99,
+      "leapfrog_steps": 50
+    },
+    {
+      "acceptance": 0.9966666666666667,
+      "step_size": 0.01671233085595386,
+      "energy_errors_above_100": 0,
+      "warmup": 2500,
+      "draws": 3000,
+      "warmup_acceptance_target": 0.99,
+      "leapfrog_steps": 50
+    },
+    {
+      "acceptance": 0.994,
+      "step_size": 0.016435968389475846,
+      "energy_errors_above_100": 0,
+      "warmup": 2500,
+      "draws": 3000,
+      "warmup_acceptance_target": 0.99,
+      "leapfrog_steps": 50
+    }
+  ],
+  "configuration": {
+    "hidden": 2,
+    "prior_sd": 0.7,
+    "variance_shape": 2.0,
+    "variance_scale": 0.5,
+    "df_shape": 2.0,
+    "df_rate": 0.5,
+    "jitter": 1e-06,
+    "variant": "adaptive",
+    "neighbors": 0
+  },
+  "maximum_function_scalar_rhat": 1.002999985639068,
+  "all_below_1_01": true,
+  "warning": "Small-data comparison only. See extended_diagnostics.csv and weight_diagnostics.csv for subsequent ESS, log-joint and weight diagnostics.",
+  "args": {
+    "study": "mcmc",
+    "steps": 2000,
+    "draws": 3000,
+    "rank": 2,
+    "hidden": 2,
+    "replications": 50,
+    "workers": 4,
+    "warmup": 2500,
+    "csv": null,
+    "out": "results/mcmc_long_trajectory",
+    "neighbors": 0,
+    "target_accept": 0.99,
+    "leapfrog": 50,
+    "variant": "adaptive"
+  }
+}

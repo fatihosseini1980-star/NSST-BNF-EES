@@ -1,0 +1,37 @@
+{
+  "args": {
+    "study": "simulation",
+    "steps": 1200,
+    "draws": 400,
+    "rank": 2,
+    "hidden": 4,
+    "replications": 50,
+    "workers": 4,
+    "warmup": 1000,
+    "csv": null,
+    "out": "results/simulation_algorithm2",
+    "neighbors": 0,
+    "target_accept": 0.9,
+    "leapfrog": 10,
+    "variant": "adaptive"
+  },
+  "model": {
+    "hidden": 4,
+    "prior_sd": 0.7,
+    "variance_shape": 2.0,
+    "variance_scale": 0.5,
+    "df_shape": 2.0,
+    "df_rate": 0.5,
+    "jitter": 1e-06,
+    "variant": "adaptive",
+    "neighbors": 0
+  },
+  "seed_formula": "200000+41*replication+(10000 for S2)",
+  "ntrain": 120,
+  "nval": 30,
+  "ntest": 50,
+  "status": "new reconstruction experiment, not reproduction of historical sn4 table",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+}

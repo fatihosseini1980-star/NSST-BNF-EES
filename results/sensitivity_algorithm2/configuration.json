@@ -1,0 +1,63 @@
+{
+  "settings": {
+    "reference": {
+      "hidden": 4,
+      "prior_sd": 0.7,
+      "rank": 2,
+      "steps": 1200,
+      "jitter": 1e-06
+    },
+    "hidden2": {
+      "hidden": 2,
+      "prior_sd": 0.7,
+      "rank": 2,
+      "steps": 1200,
+      "jitter": 1e-06
+    },
+    "hidden8": {
+      "hidden": 8,
+      "prior_sd": 0.7,
+      "rank": 2,
+      "steps": 1200,
+      "jitter": 1e-06
+    },
+    "prior035": {
+      "hidden": 4,
+      "prior_sd": 0.35,
+      "rank": 2,
+      "steps": 1200,
+      "jitter": 1e-06
+    },
+    "prior140": {
+      "hidden": 4,
+      "prior_sd": 1.4,
+      "rank": 2,
+      "steps": 1200,
+      "jitter": 1e-06
+    },
+    "diagonal_vi": {
+      "hidden": 4,
+      "prior_sd": 0.7,
+      "rank": 0,
+      "steps": 1200,
+      "jitter": 1e-06
+    },
+    "double_steps": {
+      "hidden": 4,
+      "prior_sd": 0.7,
+      "rank": 2,
+      "steps": 2400,
+      "jitter": 1e-06
+    },
+    "jitter1e5": {
+      "hidden": 4,
+      "prior_sd": 0.7,
+      "rank": 2,
+      "steps": 1200,
+      "jitter": 1e-05
+    }
+  },
+  "replications": 5,
+  "scenario": "S2",
+  "purpose": "exploratory sensitivity, not test-set model selection"
+}
