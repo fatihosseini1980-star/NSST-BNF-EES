@@ -1,0 +1,41 @@
+{
+  "source": "Saved 22 representative-point posterior predictive means per month from tehran_regional_map.py",
+  "interpolation": "Exact thin-plate-spline radial-basis interpolator applied separately for each month; metric UTM EPSG:32639",
+  "no_model_refitting": true,
+  "no_observed_2024_targets_used_in_interpolation": true,
+  "not": "Not a direct dense-grid neural-field forecast, nor a true polygon/areal average, nor an observed PM2.5 AQI surface.",
+  "number_of_anchor_predictions": 264,
+  "month_station_counts": {
+    "1": 29,
+    "2": 29,
+    "3": 29,
+    "4": 28,
+    "5": 28,
+    "6": 29,
+    "7": 29,
+    "8": 29,
+    "9": 28,
+    "10": 26,
+    "11": 27,
+    "12": 28
+  },
+  "max_absolute_error_at_22_anchor_points": 8.526512829121202e-14,
+  "RBF_reconstruction_of_339_saved_station_predictions_MAE_AQI": 1.0455902508497854,
+  "RBF_reconstruction_of_339_saved_station_predictions_RMSE_AQI": 1.2920108190494901,
+  "RBF_reconstruction_bias_AQI": -0.03498879371793277,
+  "IDW_p2_reconstruction_of_339_saved_station_predictions_MAE_AQI": 1.8254681285800336,
+  "grid_points_inside_city_per_month": 23580,
+  "interpolated_global_min_max_AQI": [
+    75.2767607967593,
+    133.08092565392758
+  ],
+  "anchor_global_min_max_AQI": [
+    77.71436042842518,
+    130.6103895285588
+  ],
+  "shared_colorbar_range_AQI": [
+    75.0,
+    135.0
+  ],
+  "warning": "Interpolation can overshoot near city boundaries; it adds no independent predictive information; the station comparison validates approximation to fitted model, not predictive accuracy versus observed outcomes."
+}
